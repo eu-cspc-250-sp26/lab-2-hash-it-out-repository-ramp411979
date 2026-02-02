@@ -1,7 +1,7 @@
 # Hash It Out Lab - Submission
 
-**Student Name:** [Your Name Here]  
-**Date:** [Submission Date]  
+**Student Name:** [Sam]  
+**Date:** [1/29/26]  
 **CSPC 250: Computer Systems Security**
 
 ---
@@ -12,27 +12,29 @@
 
 **1. What is the MD5 hash of your name?**
 
-[Your answer here]
+[97f419010e064eb35b45178cb5e004f3]
 
 **2. Run the command again with the exact same name. Did the hash change? Why or why not?**
 
-[Your answer here]
+[No, the MD5 did not change.
 
 **3. Change one letter of your name (like capitalizing it) and run again. How different is the hash?**
 
-[Your answer here]
-
+[f2135e02d9a2cdb445f3fc2990a8b84b]
+The MD5 is very different, I just capitalized my first two letters of my name and it drastically changed.
 ---
 
 ### Exercise 1.2: Hash Collisions
 
 **4. What is the md5sum of the file you created?**
 
-[Your answer here]
+[97f419010e064eb35b45178cb5e004f3]
+
 
 **5. In your own words, explain what a hash collision is and why it's a security concern.**
 
-[Your answer here]
+[When two inputs collide outputs and make a collision and its dangerous because input 1 could be acting like input 2.]
+
 
 ---
 
@@ -42,11 +44,11 @@
 
 **6. Why would a system have users with `*` instead of password hashes?**
 
-[Your answer here]
+[User privacy,and one way function that allows to verify the password without storing the actual password]
 
 **7. What do the different parts of karl's password line mean? (Hint: Research the format of `/etc/shadow` entries)**
 
-[Your answer here]
+[It stores encryptd users passwords and aging information]
 
 ---
 
@@ -54,15 +56,15 @@
 
 **8. Why don't systems store passwords in plaintext?**
 
-[Your answer here]
+[If nothing was encrypted at all, a hacker could use a cracker very easily and get access to the data.]
 
 **9. What is a "salt" in password hashing and why is it used?**
 
-[Your answer here]
+[A salt is a unqiueness in characters to randomize the password more.]
 
 **10. Research the `yescrypt` algorithm (the `$y$` prefix). Why is it considered secure?**
 
-[Your answer here]
+[The function is more resistant to offline password-cracking attacks than SHA-512. It is based on Scrypt.]
 
 ---
 
@@ -72,15 +74,15 @@
 
 **11. What was karl's password?**
 
-[Your answer here]
+[lacrosse..pumpkin]
 
 **12. How long did it take John to crack it?**
 
-[Your answer here]
+[82.75 seconds]
 
 **13. Why was this password easy to crack?**
 
-[Your answer here]
+[It was easy to crack because the password it was quick to crack and the password did not have any special characters in]
 
 ---
 
@@ -88,11 +90,11 @@
 
 **14. Does the hash match? (Yes/No)**
 
-[Your answer here]
+[No it did not]
 
 **15. What does this tell you about how Linux verifies passwords during login?**
 
-[Your answer here]
+[Linux systems are able to take on crackers and they are fast at it.]
 
 ---
 
@@ -100,15 +102,15 @@
 
 **16. Based on this lab, what makes a password "strong"?**
 
-[Your answer here]
+[What makes passwords strong is when you use multiple characters, numbers, symbols, and anything to make the password harder to guess.]
 
 **17. Why do websites now require passwords with numbers, symbols, and mixed case?**
 
-[Your answer here]
+[Because cracker is able to crack a password easier when it is just generic symbols.]
 
 **18. If you were designing a password policy for a company, what rules would you set? (At least 3 specific rules)**
 
-[Your answer here]
+[I would make passwords have special characters, 2 captial letters, and over 10 characters long.
 
 ---
 
@@ -126,7 +128,7 @@ Include three screenshots in the `screenshots/` folder:
 
 What was the most interesting thing you learned in this lab?
 
-[Your answer here]
+[The most intresting I learned in this lab is how you can install cracking software on a termianl and type commands to crack a password.]
 
 ---
 
@@ -138,5 +140,5 @@ By submitting this lab, I affirm that:
 - I did not use AI tools to generate my responses
 - I understand the concepts and can explain them in my own words
 
-**Signature (type your name):** [Your Name]  
-**Date:** [Date]
+**Signature (type your name):** [Sam]  
+**Date:** [2/1/2026]

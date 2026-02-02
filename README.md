@@ -212,7 +212,7 @@ john --show data/shadow
 Now that you know karl's password, let's verify it's correct using the `mkpasswd` command:
 
 ```bash
-mkpasswd -m yescrypt -S oR2ZofMTuH3dpEGbw6c/y. '<karls-password-here>'
+mkpasswd -m yescrypt -S oR2ZofMTuH3dpEGbw6c/y. '<karls-password-heennnnnnnnnnnnnnnnnnnnnnnn>'
 ```
 
 **Replace `<karls-password-here>` with the actual password you discovered.**
